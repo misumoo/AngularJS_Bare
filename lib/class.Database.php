@@ -18,5 +18,5 @@ class Database {
 //  const dbpass = 'q7{4dSzLZ({A';
   const dbuser = 'root';
   const dbpass = '';
-  const dbname = 'creatkd5_tspro';
+  const dbname = 'dbname';
 }

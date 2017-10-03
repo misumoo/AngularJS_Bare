@@ -13,6 +13,6 @@ class Email {
   /**
    * Email information.
    */
-  const USER_NAME = 'tsprodb@gmail.com';
-  const PASSWORD = 'tr[]pp@3!!a';
+  const USER_NAME = 'test@gmail.com';
+  const PASSWORD = 'pw';
 }
