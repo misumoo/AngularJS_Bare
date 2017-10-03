@@ -1,0 +1,23 @@
+<div ng-controller="HeaderController">
+  <div id="navbar" class="navbar navbar-default">
+    <div id="navbar-container" class="navbar-container">
+      <div class="navbar-header pull-left">
+        <a class="navbar-brand" href="#/">&nbsp;Bare</a>
+      </div>
+      <div class="navbar-header" role="navigation">
+        <ul class="nav navbar-nav customnav">
+          <li ng-class="{ active: isActive('/view1')}"><a ng-href="#/view1">View1</a></li>
+          <li ng-class="{ active: isActive('/view2')}"><a ng-href="#/view2">View2</a></li>
+        </ul>
+      </div>
+      <div id="navright" class="navbar-header pull-right">
+        <div class="navbar-brand" ng-show="loggedin == true">
+          <!--Welcome, {{username}} (<a ng-href="#/login" ng-click="logout()">logout</a>)!-->
+        </div>
+        <div class="navbar-brand" ng-show="loggedin == false">
+          <!--Please <a ng-href="#/login">login!</a>-->
+        </div>
+      </div>
+    </div><!-- navbar-container -->
+  </div><!-- navbar -->
+</div><!-- HeaderController -->
